@@ -1,0 +1,6 @@
+{
+  "name": "Bộ mài giũa câu hỏi & Phản biện sắc bén (Devil's Advocate)",
+  "description": "Ứng dụng phản biện giúp mài giũa câu hỏi, thử thách ý tưởng, phát hiện lỗ hổng logic và rèn luyện tư duy phản biện toàn diện.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
