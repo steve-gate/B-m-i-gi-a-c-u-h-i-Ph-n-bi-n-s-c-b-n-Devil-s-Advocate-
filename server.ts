@@ -498,7 +498,7 @@ ${historyText || "Chưa có lượt đàm phán nào."}
 Tin nhắn mới nhất của người dùng: "${lastMessage}"
 
 Nhiệm vụ:
-1. Hãy trả lời dưới góc nhìn của nhân vật đàm phán. Đối thoại sắc sảo, thực tế, không nhượng bộ quá nhanh, thách thức người dùng đưa ra lập luận hoặc nhượng bộ tương ứng.
+1. Hãy trả lời dưới góc nhìn của nhân vật đàm phán. Đối thoại sắc sảo, thực tế. LƯU Ý QUAN TRỌNG: Không nhượng bộ quá nhanh, nhưng nếu người dùng đưa ra một giải pháp win-win tuyệt vời, nhượng bộ cực kỳ hợp lý hoặc thấu hiểu đúng điểm yếu/nỗi đau của bạn, bạn PHẢI công nhận, đồng ý thỏa hiệp/chốt deal hoặc thay đổi thái độ tích cực, chứ không được cãi cùn mãi.
 2. Dựa vào nội dung tin nhắn của người dùng, hãy CẬP NHẬT lại các chỉ số đàm phán (satisfaction, trust, friction, currentOffer) một cách thực tế và logic:
    - Nếu người dùng lập luận thuyết phục, đưa ra số liệu/bằng chứng rõ ràng hoặc nhượng bộ hợp lý: Tăng trust, tăng satisfaction, giảm friction.
    - Nếu người dùng chỉ đòi hỏi vô lý, đe dọa hoặc dùng ngụy biện: Giảm trust, giảm satisfaction, tăng friction.
@@ -908,7 +908,7 @@ ${historyText || "Chưa có lượt giao tiếp nào."}
 Tin nhắn mới nhất từ người dùng: "${lastMessage}"
 
 Nhiệm vụ của bạn:
-1. Trả lời trực tiếp, nhập vai sâu sắc dưới tư cách của nhân vật đối phương. Đối thoại phải cực kỳ có khí chất, đúng tính cách, không sáo rỗng.
+1. Trả lời trực tiếp, nhập vai sâu sắc dưới tư cách của nhân vật đối phương. Đối thoại phải cực kỳ có khí chất, đúng tính cách, không sáo rỗng. LƯU Ý QUAN TRỌNG: Đừng chỉ tranh cãi hay phản biện mù quáng. Nếu người dùng đưa ra giải pháp xuất sắc, lập luận chặt chẽ, hoặc thái độ chân thành giải quyết được cốt lõi vấn đề, bạn PHẢI công nhận, nhượng bộ, hạ nhiệt và hướng tới việc thỏa hiệp/giải quyết vấn đề.
 2. Cập nhật các chỉ số logic dựa trên hướng dẫn sau:
 ${statsInstruction}
 3. Cung cấp một biến "event" (chuỗi ngắn mô tả biểu cảm cử chỉ, hoặc diễn biến xung quanh như: "Nghi phạm đổ mồ hôi hột", "Khán giả xôn xao bàn tán", "Đối phương khẽ mỉm cười nhẹ nhõm", "Quân sĩ reo hò khí thế", vv.) nếu có thay đổi lớn.
